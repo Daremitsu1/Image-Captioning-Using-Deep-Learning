@@ -1,0 +1,37 @@
+{
+    "DataAttributes": {
+        "chip_size": 224,
+        "norm_stats": [
+            [
+                0.48500001430511475,
+                0.4560000002384186,
+                0.4059999883174896
+            ],
+            [
+                0.2290000021457672,
+                0.2240000069141388,
+                0.22499999403953552
+            ]
+        ]
+    },
+    "ModelParameters": {
+        "backbone": "resnet50",
+        "decoder_params": {},
+        "backend": "pytorch"
+    },
+    "Framework": null,
+    "ModelConfiguration": null,
+    "ExtractBands": null,
+    "InferenceFunction": null,
+    "SupportsVariableTileSize": false,
+    "ArcGISLearnVersion": "1.8.4",
+    "ModelFile": "image-captioner-01epochs.pth",
+    "ImageHeight": 224,
+    "ImageWidth": 224,
+    "LearningRate": "2.7542e-04",
+    "ModelName": "ImageCaptioner",
+    "backend": "pytorch",
+    "Metrics": "{\"bleu-1\": 0.4835164835164835, \"bleu-2\": 0.1577708006279435, \"bleu-3\": 0.0902014652014652, \"bleu-4\": 0.04945054945054945, \"BLEU\": 0.08910696841783919}",
+    "resize_to": null,
+    "IsMultispectral": false
+}

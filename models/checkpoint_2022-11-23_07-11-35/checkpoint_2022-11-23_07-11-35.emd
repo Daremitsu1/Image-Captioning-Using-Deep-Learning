@@ -1,0 +1,36 @@
+{
+    "DataAttributes": {
+        "chip_size": 224,
+        "norm_stats": [
+            [
+                0.48500001430511475,
+                0.4560000002384186,
+                0.4059999883174896
+            ],
+            [
+                0.2290000021457672,
+                0.2240000069141388,
+                0.22499999403953552
+            ]
+        ]
+    },
+    "ModelParameters": {
+        "backbone": "resnet50",
+        "decoder_params": {},
+        "backend": "pytorch"
+    },
+    "Framework": null,
+    "ModelConfiguration": null,
+    "ExtractBands": null,
+    "InferenceFunction": null,
+    "SupportsVariableTileSize": false,
+    "ArcGISLearnVersion": "1.8.4",
+    "ModelFile": "checkpoint_2022-11-23_07-11-35.pth",
+    "ImageHeight": 224,
+    "ImageWidth": 224,
+    "LearningRate": "2.7542e-04",
+    "ModelName": "ImageCaptioner",
+    "backend": "pytorch",
+    "resize_to": null,
+    "IsMultispectral": false
+}
